@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="/js/site.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Group chat room</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="chat-room">
+        <h1>Conversation Board</h1>
+
+        <div id="messages">
+        </div>
+        <div>
+          <form action="">
+            <div class="form-group">
+              <br/>
+              <input class="form-control" type="text" id="message" placeholder="Enter your message here"><br/>
+              <button class="btn btn-primary btn-lg pull-right" id="send">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
